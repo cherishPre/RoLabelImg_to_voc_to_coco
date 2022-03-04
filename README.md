@@ -6,6 +6,10 @@ The commonly used annotation forms of text detection include horizontal rectangu
 
 The project reads, writes and converts the rotating rectangular box representation which is most used in text detection. The rotating rectangular box is different from the conventional target detection bounding box. On its basis, a rotation angle is added to rotate the conventional horizontal detection box.
 
+You need to delete other readme files before using them
+
+At present, the picture only supports .jpg format. If there are other formats, please make simple modifications
+
 Rotating rectangular boxes are usually represented in two forms:
  1. The coordinates, width, height and rotation angle of the center point are often saved in XML files
  2. The coordinates of the four corners of the rectangle are usually saved directly in txt files (such as icdar2015 dataset)
