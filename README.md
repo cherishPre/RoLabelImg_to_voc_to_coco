@@ -107,5 +107,4 @@ python account.py
 
 ## Summarize other people's tools and modify them accordingly to make the tool more comprehensive. I hope it can help more people
 Rolabelimg executable file (currently only supports windows)
-link:https://pan.baidu.com/s/1BxuhQoTiOCuq5hDeyzbQfQ?pwd=iqvl 
-Extraction code:iqvl 
+link:https://pan.baidu.com/s/1BxuhQoTiOCuq5hDeyzbQfQ?pwd=iqvl
