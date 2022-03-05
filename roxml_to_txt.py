@@ -100,7 +100,7 @@ def get_file_name(file_dir):
         return files
 
 if __name__ == "__main__":
-    xml_path = 'roxml'
+    xml_path = 'RoXml'
     save_txt_path = 'txt'
     file_list = get_file_name(xml_path)
     for item in file_list:
