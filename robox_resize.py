@@ -90,8 +90,8 @@ def start(sourceImgDir,sourceXmlDir, targetDir, resize_w, resize_h):
 
 if __name__ == "__main__":
     sourceImgDir = "img"
-    sourceXmlDir = "roxml"
-    targetDir = "new_size_roxml"
+    sourceXmlDir = "RoXml"
+    targetDir = "new_size_RoXml"
     Height = 700
     Width = 800
     start(sourceImgDir,sourceXmlDir, targetDir, Width, Height)
