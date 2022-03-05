@@ -1,5 +1,5 @@
 # RoLabelImg_to_voc_to_coco
-aimed at the transformation of three representations of line text detection box label (rotating rectangular detection box) (TXT, XML and JSON). In order to make users more flexible to modify tools, we make each Python file independent, so that it will not affect the use of other files after modification .
+Aimed at the transformation of three representations of line text detection box label (rotating rectangular detection box) (TXT, XML and JSON). In order to make users more flexible to modify tools, we make each Python file independent, so that it will not affect the use of other files after modification .
 
 At present, the picture only supports .jpg format. If there are other formats, please make simple modifications. You need to delete other README files before using them.
 
