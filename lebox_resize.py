@@ -102,8 +102,8 @@ def start(sourceDir,sourceXmlDir, targetDir, resize_w, resize_h):
 
 if __name__ == "__main__":
     sourceImgDir = "img"
-    sourceXmlDir = "lexml"
-    targetDir = "new_size_lexml"
+    sourceXmlDir = "LeXml"
+    targetDir = "new_size_LeXml"
     Height = 700
     Width = 800
     start(sourceImgDir,sourceXmlDir, targetDir, Width, Height)
