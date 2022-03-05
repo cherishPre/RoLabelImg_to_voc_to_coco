@@ -270,8 +270,8 @@ def get_file_name(file_dir):
         return files
 
 if __name__ == "__main__":
-    read_xml_path = 'roxml'
-    save_xml_path = 'lexml'
+    read_xml_path = 'RoXml'
+    save_xml_path = 'LeXml'
     file_name_list = get_file_name(read_xml_path)
     for item in file_name_list:
         fr_line,size_shape,localImgPath = read_xml(read_xml_path,item)
