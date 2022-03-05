@@ -1,14 +1,12 @@
 # RoLabelImg_to_voc_to_coco
-aimed at the transformation of three representations of line text detection box label (rotating rectangular detection box) (TXT, XML and JSON).
+aimed at the transformation of three representations of line text detection box label (rotating rectangular detection box) (TXT, XML and JSON). In order to make users more flexible to modify tools, we make each Python file independent, so that it will not affect the use of other files after modification .
+
+At present, the picture only supports .jpg format. If there are other formats, please make simple modifications. You need to delete other README files before using them.
 
 ## Text detection box
 The commonly used annotation forms of text detection include horizontal rectangular box, rotating rectangular box, arbitrary quadrilateral box, arbitrary polygon box and other forms.
 
 The project reads, writes and converts the rotating rectangular box representation which is most used in text detection. The rotating rectangular box is different from the conventional target detection bounding box. On its basis, a rotation angle is added to rotate the conventional horizontal detection box.
-
-You need to delete other readme files before using them
-
-At present, the picture only supports .jpg format. If there are other formats, please make simple modifications
 
 Rotating rectangular boxes are usually represented in two forms:
  1. The coordinates, width, height and rotation angle of the center point are often saved in XML files
@@ -110,5 +108,6 @@ python account.py
 ```
 
 ## Summarize other people's tools and modify them accordingly to make the tool more comprehensive. I hope it can help more people
+
 Rolabelimg executable file (currently only supports windows)
 link:https://pan.baidu.com/s/1BxuhQoTiOCuq5hDeyzbQfQ?pwd=iqvl
