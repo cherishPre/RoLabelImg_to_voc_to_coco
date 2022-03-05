@@ -169,7 +169,7 @@ def parseXmlFiles(xml_path):
                     addAnnoItem(object_name, current_image_id, current_category_id, bbox )
 
 if __name__ == '__main__':
-    xml_path = 'lexml'
+    xml_path = 'LeXml'
     json_file = 'instances.json'
     parseXmlFiles(xml_path)
     json.dump(coco, open(json_file, 'w'))
