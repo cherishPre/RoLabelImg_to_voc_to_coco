@@ -36,7 +36,6 @@ def addImgItem(file_name, size):
     if size['height'] is None:
         raise Exception('Could not find height tag in xml file.')
     image_id += 1
-    # image_id = int(file_name)
     image_item = dict()
     image_item['id'] = image_id
     image_item['file_name'] = file_name
@@ -72,7 +71,6 @@ def addAnnoItem(object_name, image_id, category_id, bbox):
     annotation_item['ignore'] = 0
     annotation_item['image_id'] = image_id
     annotation_item['bbox'] = bbox
-    category_id = 1
     annotation_item['category_id'] = category_id
     annotation_id += 1
     annotation_item['id'] = annotation_id
